@@ -185,7 +185,7 @@ img.app {
 @media screen and (max-width: 1024px) {}
 @media screen and (max-width: 768px) {}
 @media screen and (max-width: 425px) {
-    nav, .board, .ret, .us, .need, .pack, .our, .back, footer {width: 320px;}
+    body, nav, .board, .ret, .us, .need, .pack, .our, .back, footer {width: 320px;}
     nav .logo {
         height: 40px;
         margin-left: 30px;}
