@@ -4,7 +4,9 @@ body {
 a, a:hover, a:active {
     text-decoration: none;
     color: white;}
-.row {flex-wrap: wrap;}
+.rsp {
+    display: flex;
+    flex-wrap: wrap;}
 nav {
     padding-top: 10px;
     width: 100%;}
@@ -27,13 +29,66 @@ nav ul li{
     width: 130px;
     color: white;
     background-color: #0D4447;}
+.why {
+    margin: 0px 0 0 100px;
+    width: 1240px;
+    color: black;
+    height: 800px;
+    background-color: white;
+    background-image: url("../data/images/Asset%201%201.png");
+    background-repeat: no-repeat;
+    background-size: 30%;
+    background-position: top right;}
+.keu {padding-top: 30px;}
+.keu h2 {
+    font-weight: 900;
+    margin: 0 0 0 80px;}
+.keu img {
+    width: 20px;
+    height: 20px;
+    margin: 0 0 0 1000px}
+.why .hor {
+    margin-top: -20px;
+    width: 155px;}
+.plus {
+    margin: 10px 0 0 0;
+    width: 950px;}
+.cross {
+    margin: 0 10px 0 120px;
+    height: 25px;
+    width: 25px;}
+h4 {font-weight: 900;}
+.first {text-align: justify;}
+.first img {
+    height: 170px;
+    margin: 20px 20px 0 160px;}
+.first p {width: 610px;}
+hr {margin-left: 120px;}
 
 
 
 
 @media screen and (max-width: 1024px) {}
 @media screen and (max-width: 768px) {}
-@media screen and (max-width: 425px) {}
+@media screen and (max-width: 425px) {
+    body, .why, .plus, footer {width: 300px;}
+    nav .logo {
+        height: 40px;
+        margin-left: 30px;}
+    nav img.name {margin-top: 30px;}
+    nav ul, a.btn.b.log {display: none;}
+    footer {
+        width: 335px;
+        padding: 40px;}
+    .hey img.name {height: 18px;}
+    .dee {width: 100%;}
+    .why {margin: 10px;}
+    .keu h2 {margin: 0 0 0 10px;}
+    .keu img {margin: 10px 0 0 170px;}
+    .cross, hr {margin-left: 10px;}
+    .first img {display: none;}
+    p {font-size: 12px;}
+}
 @media screen and (max-width: 414px) {}
 @media screen and (max-width: 411px) {}
 @media screen and (max-width: 375px) {}
